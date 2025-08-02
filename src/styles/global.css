@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root{
+    --color-black: #0001;
+    --color-white: #FFFFFF;
+    --color-primary: #00A000;
+    --color-grey: #999999;
+    --color-bg-overlay: #FAFAFA;
+    
+
+}
+
