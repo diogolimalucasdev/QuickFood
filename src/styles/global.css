@@ -6,13 +6,31 @@
 
 }
 
-:root{
-    --color-black: #0001;
+:root {
+    --color-black: rgb(0, 0, 0);
     --color-white: #FFFFFF;
     --color-primary: #00A000;
     --color-grey: #999999;
     --color-bg-overlay: #FAFAFA;
-    
+
 
 }
 
+
+.btn-primary {
+    padding: 16px;
+    width: 146px;
+    border: 2px solid var(--color-white);
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-secondary {
+    padding: 16px;
+    width: 191px;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
