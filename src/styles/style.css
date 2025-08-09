@@ -98,3 +98,139 @@ main> div img {
     width: 500px;
 
 }
+.shopping {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px
+    
+  
+    
+}
+
+
+.shopping h2 {
+    /* border: 2px solid; */ 
+}
+
+.shopping-flow {
+    display: flex;
+    justify-content: center;  
+}
+
+.shopping-flow > .card-shopping{
+    display: block;
+    padding: 8px;
+    width: 400px;
+}
+
+.card-shopping > img {
+    width: 216px;
+}
+
+.card-shopping > p{
+    text-align: center;
+}
+
+.card-shopping > .count {
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.count h2 {
+    gap: 100px
+}
+
+.special-dishes h2 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.special-dishes > .group-cards {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dishes-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.dishes-card img {
+    width: 250px;
+}
+
+.dishes-card p {
+    display: flex;
+    text-align: center;
+    width: 279px;
+}
+
+.clients{
+    margin-top: 100px;
+}
+
+.clients h2,p{    
+    text-align: center;
+}
+
+
+.clients > .group-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 21px;
+}
+
+.group-clients > .card-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-client img {
+    width: 100px;
+}
+
+.client-name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.client-name p{
+    width: 319px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 82px;
+    padding: 100px;
+}
+
+.about > .content-about p{
+    width: 558px;
+    text-align: start;
+}
+
+.about > .content-about h2{
+    text-align: start;
+}
+
+
