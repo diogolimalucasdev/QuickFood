@@ -26,6 +26,14 @@
     color: var(--color-white);
 }
 
+.btn-primary:hover {
+    border: 2px solid;
+    cursor: pointer;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    transition: background-color 0.3s ease;
+}
+
 .btn-secondary {
     padding: 16px;
     width: 191px;
@@ -33,4 +41,12 @@
     border-radius: 8px;
     background-color: var(--color-white);
     color: var(--color-primary);
+}
+
+
+.btn-secondary:hover{
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    transition: background-color 0.3s ease;
 }
