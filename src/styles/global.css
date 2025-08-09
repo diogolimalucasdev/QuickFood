@@ -13,6 +13,8 @@
     --color-grey: #999999;
     --color-bg-overlay: #FAFAFA;
 
+    
+
 
 }
 
@@ -49,4 +51,31 @@
     color: var(--color-white);
     background-color: var(--color-primary);
     transition: background-color 0.3s ease;
+}
+
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url(../assets/fonts/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroy-heavy';
+    src: url(../assets/fonts/Gilroy-Heavy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroy-light';
+    src: url(../assets/fonts/Gilroy-Light.ttf) format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url(../assets/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url(../assets/fonts/Gilroy.ttf) format('truetype');
 }

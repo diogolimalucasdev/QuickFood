@@ -4,17 +4,31 @@ header {
     align-items: center;
     margin: 40px 0px;
     width: 100%;
+    font-family: 'gilroy';
 
 }
 
 
-nav>.menu ul {
+nav>.menu ul  {
     display: flex;
     list-style: none;
     gap: 40px;
     color: black;
+    text-decoration: none;
+
 
 }
+
+nav>.menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav>.menu ul li a:hover {
+    color: var(--color-primary)
+}
+
 
 nav>.menu ul li:first-child {
     color: var(--color-primary)
@@ -49,6 +63,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-family: 'gilroy-bold';
 }
 
 main>.content-deliver-healthy {
@@ -105,6 +120,7 @@ main>div img {
     justify-content: center;
     gap: 7px;
     background-color: #FAFAFA;
+    
 
 }
 
@@ -112,6 +128,7 @@ main>div img {
 .shopping h2 {
     width: 100%;
     text-align: center;
+    font-family: 'gilroy-medium';
 }
 
 
@@ -159,6 +176,7 @@ main>div img {
     margin-top: 102px;
     text-align: center;
     width: 100%;
+    font-family: 'gilroy-medium';
 }
 
 .special-dishes>.group-cards-dishes {
@@ -197,7 +215,7 @@ main>div img {
 }
 
 .clients {
-    margin-top: 100px;
+    margin-top: 130px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -205,10 +223,17 @@ main>div img {
     align-items: center;
 }
 
+
+.clients h2{
+    font-family: 'gilroy-medium';
+}
+
 .clients h2,
 p {
     text-align: center;
     width: 75%;
+    font-family: 'gilroy'
+    
 }
 
 
@@ -437,6 +462,7 @@ footer {
     list-style: none;
     color: var( --color-bg-overlay);
     font-size: 14px;
+    font-family: 'gilroy'
 }
 
 
